@@ -1,0 +1,19 @@
+<ion-header class="ion-no-border">
+
+  <ion-toolbar color="dark">
+
+    <ion-title>Favoritos</ion-title>
+
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content color="dark">
+
+  <p class="ion-padding" style="text-align: center;" *ngIf="noticias.length == 0">
+    TU LISTA SE ENCUENTRA VACÍA
+  </p>
+
+  <app-noticias [noticias]="noticias"></app-noticias>
+
+</ion-content>

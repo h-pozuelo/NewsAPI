@@ -1,0 +1,7 @@
+{
+  "name": "Plantilla con Tabs",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
